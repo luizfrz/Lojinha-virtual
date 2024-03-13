@@ -1,0 +1,44 @@
+body {  
+    justify-content: center;
+    background-image: linear-gradient( rgb(255, 251, 0), rgb(89, 12, 92));
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+.fundo {
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    margin: 0;
+    animation: blink 1s infinite;  
+}
+
+.zapzap{
+    text-align: center;
+}
+.zapzap:hover{
+    background-color: green;
+    display: inline-block;
+    border-radius: 20px;
+}
+fieldset{
+    border: none;
+    padding: 15px;
+}
+@media (min-width: 768px) {
+     body {
+        display: block; 
+    }
+}
+button{
+    background-color: green;
+    color: white  ;
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: greenyellow;
+}   
+.backdown{
+    text-align: end;
+}

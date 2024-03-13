@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, rgb(195, 55, 205), rgb(190, 0, 159));
+}
+legend{
+    font-style: italic;
+    color: white;
+    font: 300;
+}
+fieldset{  
+    
+    border: none;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    body {
+        display: block;
+    }
+}
+.menulf{
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    text-align: end;
+}
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:rgb(107, 15, 107);
+color:#fff;
+cursor: pointer;
+}
+.menu li  ul{
+    position:absolute;
+    top:25px;   
+    background-color:purple;
+    display:none;
+ }
+.menu li:hover ul, .menu li.over ul{
+        display:block;
+}
+.menu li ul li{
+        border: none;
+        display:block;
+        width:150px;   
+}
+.content {
+    position: relative;
+    z-index: 1;
+}
+.menu {
+    position: relative;
+    z-index: 2;
+}
+button{
+    background-color: purple;
+    cursor: pointer;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: burlywood;
+}

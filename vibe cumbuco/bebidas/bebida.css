@@ -1,0 +1,13 @@
+  body{
+    padding: 0%;
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right, rgb(191, 26, 197), rgb(110, 73, 116));
+    text-align: center;
+}   
+@media (min-width: 768px) {
+    .body {
+        display: block; 
+    }
+}
