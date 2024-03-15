@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-image: linear-gradient(to right, rgb(195, 55, 205), rgb(190, 0, 159));
+    background-image: linear-gradient(to right, rgb(219, 121, 226), rgb(190, 0, 159));
 }
 legend{
     font-style: italic;
@@ -11,7 +11,8 @@ legend{
     font: 300;
 }
 fieldset{  
-    
+    background-image: linear-gradient(to right, rgb(255, 9, 194), rgb(163, 62, 164));
+    box-shadow: yellow;
     border: none;
     text-align: center;
 }
