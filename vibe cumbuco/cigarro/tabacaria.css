@@ -22,3 +22,9 @@ button{
 button:hover{
     background-color: plum;
 }
+img{
+    transition: transform 1.6s;
+}
+img:hover{
+    transform: scale(1.1);
+}

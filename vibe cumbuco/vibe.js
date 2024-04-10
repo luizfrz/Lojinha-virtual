@@ -7,3 +7,4 @@ $(document).ready(function () {
         autoplayHoverPause: true
     });
 });
+// essa linha de código vai fazer funcionar carrosel 

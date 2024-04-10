@@ -11,3 +11,9 @@
         display: block; 
     }
 }
+img{
+    transition: transform 1.6s;
+}
+img:hover{
+    transform: scale(1.1);
+}
