@@ -3,8 +3,7 @@ $(document).ready(function () {
         items: 1,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
 });
-// essa linha de código vai fazer funcionar carrosel 

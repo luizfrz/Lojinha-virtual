@@ -2,24 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    background-image: linear-gradient(to right, rgb(219, 121, 226), rgb(190, 0, 159));
+}
+#fontloj{
+    font-family: LOJINHA;
+}
+@font-face {
+    font-family: LOJINHA;
+    src: url(/fonte/CherryCreamSoda-Regular.ttf);
 }
 legend{
     font-style: italic;
     color: white;
-    font: 300;
+}
+#imgwi{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 fieldset{  
-    background-image: linear-gradient(to right, rgb(255, 9, 194), rgb(163, 62, 164));
+    background-color: #333;
+    padding: 5px 5px;
+    border-radius: 10px; 
     box-shadow: yellow;
     border: none;
     text-align: center;
-}
-@media (min-width: 768px) {
-    body {
-        display: block;
-    }
 }
 .menulf{
     text-align: center;
@@ -29,7 +35,10 @@ fieldset{
     text-align: end;
 }
 .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
-
+#vibecarrousl{
+    margin-left: auto;
+    margin-right: auto;
+}
 .menu li a:hover{
 background:rgb(107, 15, 107);
 color:#fff;
