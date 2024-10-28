@@ -3,7 +3,7 @@
 
 <ol>menu interativo </ol>
 <ol>slide (carrousel) passando as promoções do produto </ol>
-<ol>localização </ol>
+<ol>localização da loja</ol>
 <h1> Como é feito o pedido? </h1>
  <p>Ao clicar no menu interativo, vai direcionar as opções.
    terá logo de bebidas.
